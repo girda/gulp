@@ -1,0 +1,42 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "description": "gulp template",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girda/gulp.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "config": {
+    "src": {
+      "sass": "src/sass"
+    },
+    "build": {
+      "css": "build/css"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "author": "artem.girda@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/girda/gulp/issues"
+  },
+  "homepage": "https://github.com/girda/gulp#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.5.0",
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^4.0.1",
+    "require-dir": "^1.0.0",
+    "run-sequence": "^2.2.1"
+  }
+}
